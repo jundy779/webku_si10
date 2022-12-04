@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pertambahan</title>
+</head>
+<body>
+  <h1>Membuat Penjumlahan Otomatis</h1>
+    <input type="text" id="vpn1"  onkeyup="sum();" /> +
+    <input type="text" id="vpn2"  onkeyup="sum();" /> =
+    <input type="text" id="vpn3" />
+
+  <script>
+    function sum() {
+          var txtFirstNumberValue = document.getElementById('vpn1').value;
+          var txtSecondNumberValue = document.getElementById('vpn2').value;
+          var result = parseInt(txtFirstNumberValue) + parseInt(txtSecondNumberValue);
+          if (!isNaN(result)) {
+             document.getElementById('vpn3').value = result;
+          }
+    }
+    </script>
+</body>
+</html>
