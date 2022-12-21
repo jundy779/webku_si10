@@ -1,2 +1,2 @@
 # webku_si10
-Tugas NF PW
+Tugas NF PW DAN PRAKTIKUM SEMESTER 1
